@@ -6,3 +6,7 @@
     padding: 1em;
     background-color: #2a9d8f;
 }
+
+.userlist a {
+    text-decoration: none;
+}

@@ -17,8 +17,9 @@
     border-radius: 50%;
 }
 
-.user__description {
+.user__description p {
     line-height: 1.2em;
+    color: #000;
 }
 
 .user__description--bold {

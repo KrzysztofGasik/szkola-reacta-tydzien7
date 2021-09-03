@@ -1,0 +1,27 @@
+.UserDetails {
+    display: grid;
+    grid-template-columns: 100%;
+    place-content: center;
+    gap: 1em;
+    padding: 1em;
+    background-color: #2a9d8f;
+}
+
+.UserDetails .active:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UserDetails .active:last-child
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #e76f51;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 7px;
+}
