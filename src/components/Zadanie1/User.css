@@ -1,0 +1,28 @@
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    background-color: #f4a261;
+    border-radius: 5px;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.user__image {
+    margin: 1em;
+}
+
+.user__image img{
+    border-radius: 50%;
+}
+
+.user__description {
+    line-height: 1.2em;
+}
+
+.user__description--bold {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #264653;
+}

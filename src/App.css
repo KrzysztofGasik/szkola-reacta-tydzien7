@@ -1,0 +1,5 @@
+.App {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit,minmax(350px,auto)); */
+  place-content: center;
+}
