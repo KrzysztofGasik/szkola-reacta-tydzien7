@@ -12,11 +12,7 @@ export default function UserDetails({ data }) {
   const latitude = Number(searchUser.location.coordinates.latitude);
   const longitude = Number(searchUser.location.coordinates.longitude);
 
-  console.log(latitude,longitude)
-
   useEffect(() => {
-    const latitude = Number(searchUser.location.coordinates.latitude);
-    const longitude = Number(searchUser.location.coordinates.longitude);
     const L = window.L;
     const map = L.map("map").setView([latitude, longitude], 5);
     L.marker([latitude, longitude]).addTo(map);
